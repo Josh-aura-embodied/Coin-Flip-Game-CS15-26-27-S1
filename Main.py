@@ -7,7 +7,7 @@ while True:
 
     # Input validation loop to ensure the user types a valid option
     while True:
-        guess = input("What is your guess?\n")
+        guess = input("What is your guess?")
         guess = guess.lower()  # Convert to lowercase to make it case-insensitive
 
         if guess == "heads" or guess == "tails":
